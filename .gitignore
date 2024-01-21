@@ -1,0 +1,4 @@
+.venv/
+namuwiki210301/
+*.bin
+.env
