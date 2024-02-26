@@ -2,3 +2,7 @@
 namuwiki210301/
 *.bin
 .env
+appStore/
+models/
+.idea/
+*.pyc
