@@ -1,6 +1,10 @@
 ## 마인드맵 형식의 앱 주제 제공 서비스
 
-[model](https://github.com/Kyubyong/wordvectors)
-1. pretrained model 그대로 사용 (위키피디아)
-2. pretrained model + 나무위키
-3. pretrained model + 마인드맵 데이터로 파인튜닝
+fasttext 모델 사용. 위키피디아, 나무위키 데이터 학습되어있음.
+배포하면서 램 4gb짜리 인스턴스까지 시도해봤지만 모델 로드 과정에서 out of memory
+
+1. 배포하지 않는다.
+2. 우리집 컴에서 한다.
+3. GCP 8gb 짜리를 시도해본다. (기본 $300 제공 8gb 인스턴스 사용 시 한달 $60 5개월 지속가능)
+
+> 예외처리 필요
